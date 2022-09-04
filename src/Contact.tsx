@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
 	createStyles,
 	Button,
@@ -14,14 +13,7 @@ import PageHeader from "./components/pageheader";
 import Footer from "./components/footer";
 
 export default function Contact() {
-	let [message, setMessage] = useState("");
-	const submitForm = (e: any) => {
-		console.log(message);
-		e.preventDefault();
-		const inputObject = Object.fromEntries(new FormData(e.target));
-		console.log(inputObject);
-		return true;
-	};
+	const submitForm = (e: any) => true;
 
 	const useStyles = createStyles(() => ({
 		button: {
