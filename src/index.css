@@ -33,9 +33,9 @@ code {
 	border-radius: 15px;
 	position: absolute;
 	width: 18%;
-	height: 70%;
-	right: 25px;
-	top: 155px;
+	height: 40%;
+	right: 1.5vw;
+	top: calc(155px + 16%);
 }
 
 .mapboxgl-ctrl-attrib,

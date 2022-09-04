@@ -33,15 +33,9 @@ export class ColouredMap extends React.Component<{}, IColouredMap> {
 			zoom: zoom,
 		});
 
-		const marker1 = new mapboxgl.Marker()
-			.setLngLat([-75.1302, 39.9943])
-			.setPopup(new mapboxgl.Popup().setHTML("<h3>Help this Heat Island</h3>")) // add popup
-			.addTo(map)
-		
-		const marker2 = new mapboxgl.Marker()
-			.setLngLat([-74.9869, 40.1149])
-			.setPopup(new mapboxgl.Popup().setHTML("<h3>Help this Heat Island</h3>")) // add popup
-			.addTo(map)
+		const marker = new mapboxgl.Marker()
+			.setLngLat([-75.135, 39.9943])
+			.addTo(map);
 
 		map.on("move", () => {
 			this.setState({
