@@ -1,4 +1,4 @@
-# Heat Island Tracker
+# Heat Island Tracker 🌆☀️
 _For context: an "urban heat island" refers to how a city heats up significantly more compared to surrounding areas because buildings and infrastructure absorb and re-emit large amounts of heat._
 
 ## What inspired us to make this specific project?
